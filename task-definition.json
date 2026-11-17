@@ -1,10 +1,10 @@
 {
-  "family": "Main",
+  "family": "backend-task-definition",
   "networkMode": "awsvpc",
   "requiresCompatibilities": ["FARGATE"],
   "cpu": "512",
   "memory": "1024",
-  "executionRoleArn": "arn:aws:iam::211125356770:role/LabRole",
+  "executionRoleArn": "arn:aws:iam::339712802615:role/LabRole",
   "containerDefinitions": [
     {
       "name": "Main",
