@@ -1,5 +1,5 @@
 {
-  "family": "backend-task-definition",
+  "family": "Main",
   "networkMode": "awsvpc",
   "requiresCompatibilities": ["FARGATE"],
   "cpu": "512",
