@@ -1,5 +1,5 @@
 {
-  "family": "biztrips-backend",
+  "family": "backend-task-definition",
   "networkMode": "awsvpc",
   "requiresCompatibilities": ["FARGATE"],
   "cpu": "512",
@@ -7,8 +7,8 @@
   "executionRoleArn": "arn:aws:iam::211125356770:role/LabRole",
   "containerDefinitions": [
     {
-      "name": "biztrips-backend",
-      "image": "211125356770.dkr.ecr.us-east-1.amazonaws.com/biztrips-backend:latest",
+      "name": "Main",
+      "image": "211125356770.dkr.ecr.us-east-1.amazonaws.com/backend:latest",
       "portMappings": [{ "containerPort": 8080, "protocol": "tcp" }],
       "essential": true,
       "environment": [
@@ -25,7 +25,7 @@
       "logConfiguration": {
         "logDriver": "awslogs",
         "options": {
-          "awslogs-group": "/ecs/biztrips-backend",
+          "awslogs-group": "/ecs/Main",
           "awslogs-region": "us-east-1",
           "awslogs-stream-prefix": "ecs"
         }
