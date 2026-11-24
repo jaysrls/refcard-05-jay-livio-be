@@ -60,8 +60,6 @@ Im Code:
 
 ![img6png](imgs/img_6.png)
 
-Auf AWS:
-
 ## 8. RDS einrichten
 ![img12png](imgs/img_12.png)
 Auf Amazon RDS haben wir eine MariaDB-Instanz erstellt und den Datenbanknamen, einen Benutzer und ein Passwort festgelegt. Das Passwort wurde in AWS Secrets Manager gespeichert. Das Backend wurde über Umgebungsvariablen für die Verbindung zur Datenbank konfiguriert.
