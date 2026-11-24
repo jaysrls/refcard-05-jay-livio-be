@@ -13,7 +13,7 @@
       "essential": true,
       "environment": [
         { "name": "SPRING_PROFILES_ACTIVE", "value": "mariadb" },
-        { "name": "SPRING_DATASOURCE_URL", "value": "jdbc:mariadb://fullstack-db.cfomq8oua2kb.us-east-1.rds.amazonaws.com:3306/db_bitztrips" },
+        { "name": "SPRING_DATASOURCE_URL", "value": "spring.datasource.url=jdbc:mariadb://fullstack-db.cfomq8oua2kb.us-east-1.rds.amazonaws.com:3306/db_bitztrips?sslMode=verify-fullrips?sslMode=verify-full" },
         { "name": "SPRING_DATASOURCE_USERNAME", "value": "admin" }
       ],
       "secrets": [
