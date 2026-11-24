@@ -19,7 +19,7 @@
       "secrets": [
         {
           "name": "SPRING_DATASOURCE_PASSWORD",
-          "valueFrom": "arn:aws:secretsmanager:us-east-1:339712802615:secret:fullstack/database-ON0RPL"
+          "valueFrom": "arn:aws:secretsmanager:us-east-1:339712802615:secret:fullstack/database-ON0RPL:password::"
         }
       ],
       "logConfiguration": {
